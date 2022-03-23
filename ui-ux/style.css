@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Old Standard TT', serif;
+    background-color: #ebedd8;
 }
 
 nav {
@@ -35,8 +36,17 @@ header {
 }
 
 img {
-    width: 800px;
+    width: 400px;
     padding: 5px;
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     border-radius: 4px;
+}
+
+.header-text {
+    padding: 1em;
+    font-size: 2em;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
