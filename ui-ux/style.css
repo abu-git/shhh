@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Old+Standard+TT:wght@400;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Old Standard TT', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+
+.body-container {
+    padding: 0 1em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.title-logo {
+    font-family: 'Inspiration', cursive;
+    font-size: 3.8em;
+}
+
+header {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 800px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
